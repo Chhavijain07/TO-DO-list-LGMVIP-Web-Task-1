@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="TO-DO.css">
+</head>
+<style>
+    
+ 
+</style>
+
+<body>
+    <center>
+       
+    <div class="todo">
+        <h2 id="name">TO-DO List</h2>
+        <div class="bar">
+      
+    
+    <input type="text" id="task1" placeholder="Enter Task" ><button id="btn2" >ADD</button> 
+</div>
+   
+    <div class="task">
+    <div id="show">
+    <h2 id="pend">Pending</h2>
+    <ul id="list-con">
+   <li id="Emails" onclick="task1()"> Reply to Emails </li>
+   <li id="lunch"onclick="task2()">Have Lunch</li>
+   <li id="walking" onclick="task3()">Walking</li>
+ 
+   
+    
+</ul>
+    </div>
+   <hr>
+   
+   
+    <span id="Completed"  >
+        <h2 id="com" >Completed</h2>
+        <li id="Email"></li>
+        <li id="lun"></li>
+        <li id="walk"></li>
+        <li id="newtask"></li>
+      
+    </span>
+  
+</div>
+
+
+    </div>
+    </center>
+    <script src="TO-DO.js"></script>
+</body>
+
+</html>

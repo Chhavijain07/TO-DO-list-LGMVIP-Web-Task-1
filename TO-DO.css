@@ -1,0 +1,71 @@
+#task1{
+       
+    width: 224px;
+    border-radius: 22px;
+    height: 30px;
+    margin-top: 10px;
+   font-weight: bolder;
+   margin-bottom: 40px;
+   margin-left: 50px;
+   color: black;
+   border-color: rgb(136, 195, 136);
+ 
+
+}
+.task{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(136, 195, 136);
+   
+
+}
+.bar{
+    display: flex;
+    margin-left: 60px;
+  
+    margin-top: 50px;
+  
+   
+}
+#btn2{
+  background-color: rgb(136, 195, 136);;
+  border-radius: 22px;
+  color: black;
+  width: 60px;
+  height: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-color:rgb(136, 195, 136);
+
+
+}
+#Completed li{
+    list-style:none;
+    margin-right: 50px;
+}
+.todo{
+  background-color:black;
+  border-color: red;
+  width: 445px;
+  color: black;
+  height: 200px;
+}
+li ::before{
+  background-color: url("https://pic.onlinewebfonts.com/svg/img_282900.png");
+}
+#pend{
+    text-align: center;
+margin-left: 50px;
+  
+}
+#com{
+    text-align: center;
+    margin-right: 50px;
+    
+}
+#name{
+    color: white;
+    margin-top: 30px;
+}
+
